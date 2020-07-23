@@ -1,7 +1,8 @@
-body{
+.body{
     font-family: 'Rye', cursive;
     margin: 0;
     padding: 0;
+   
 }
 .top {
     background-image: url("../images/h_img.jpg");
@@ -31,9 +32,12 @@ body{
 .work{
     text-align: center;
 }
+.work p{
+    display:none;
+}
 .port{
     text-align: center;
-    margin: 10px auto;
+    margin: 10px 50px;
     width: 50;
 
     
@@ -52,7 +56,7 @@ body{
     padding: 20px;
 }
 #textbox {
-    width:50% ;
+    width:60% ;
     height:250px;
     border-style: solid;
     border-color: black;
@@ -61,6 +65,7 @@ body{
 }
 .social{
     text-align: center;
+    width: 100%;
     margin: 20px auto;
 }
 .footer{
