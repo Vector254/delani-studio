@@ -1,14 +1,29 @@
+body{
+    font-family: 'Rye', cursive;
+    margin: 0;
+    padding: 0;
+}
 .top {
     background-image: url("../images/h_img.jpg");
-    text-align: center;
-    background-position:center;
     background-size: cover;
-    padding-top: 20px;
-  }
+    width: 100%;
+    padding-top: 10em;
+    color: white;
+    text-align: center;
+    }
+#mouse {
+    padding-top: 10em;
+}
+.about{
+    text-align: center;
+}
+
 .services{
     background-image: url("../images/s_image.jpg");
     background-size: cover;
-    background-position:center;
+    background-position: center;
+    color: white;
+    padding: 5em;
     text-align: center;
 
 }
