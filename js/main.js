@@ -1,3 +1,16 @@
+function submit() {
+    var Name = document.getElementById("name").value;
+    var Email=document.getElementById("e-mail").value;
+    var Feedback=document.getElementById("feedback").value;
+    if((Name=="")||(Email=="")||(Feedback=="")){
+        alert("Please input all fields!");
+    }
+    else {
+        alert("hello!"+Name+", we have received your message. Thank you for reaching out to us.");
+    }
+  };
+
+
 $(document).ready(function() {
     //design section
     $(".design").click(function() {
@@ -79,8 +92,3 @@ $(document).ready(function() {
     
 });
 //feedback fetch
-$("button").click(function (event) {
-    var Name = document.getElementById('name').value;
-    alert(Name+ ' we have received your message successful.'<br>' Feel free to reach out to us anytime');
-    event.preventDefault();
-  });t
