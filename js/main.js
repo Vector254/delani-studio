@@ -20,20 +20,67 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    $('#work1, #work2, #work3, #work4, #work5, #work6, #work7, #work8').hover(function() {
+    $("#work1").hover(function() {
         $(this).animate({opacity:0.6});
         $('#work1text').fadeIn();
-    
     }, function() {
         $(this).animate({opacity:1})
-        $('#work1text').fadeOut();
-    
+        $('#work1text').fadeOut();  
     });
+    $("#work2").hover(function() {
+        $(this).animate({opacity:0.6});
+        $('#work2text').fadeIn();
+    }, function() {
+        $(this).animate({opacity:1})
+        $('#work2text').fadeOut();  
+    });
+    $("#work3").hover(function() {
+        $(this).animate({opacity:0.6});
+        $('#work3text').fadeIn();
+    }, function() {
+        $(this).animate({opacity:1})
+        $('#work3text').fadeOut();  
+    });
+    $("#work4").hover(function() {
+        $(this).animate({opacity:0.6});
+        $('#work4text').fadeIn();
+    }, function() {
+        $(this).animate({opacity:1})
+        $('#work4text').fadeOut();  
+    });
+    $("#work5").hover(function() {
+        $(this).animate({opacity:0.6});
+        $('#work5text').fadeIn();
+    }, function() {
+        $(this).animate({opacity:1})
+        $('#work5text').fadeOut();  
+    });
+    $("#work6").hover(function() {
+        $(this).animate({opacity:0.6});
+        $('#work6text').fadeIn();
+    }, function() {
+        $(this).animate({opacity:1})
+        $('#work6text').fadeOut();  
+    });
+    $("#work7").hover(function() {
+        $(this).animate({opacity:0.6});
+        $('#work7text').fadeIn();
+    }, function() {
+        $(this).animate({opacity:1})
+        $('#work7text').fadeOut();  
+    });$("#work8").hover(function() {
+        $(this).animate({opacity:0.6});
+        $('#work8text').fadeIn();
+    }, function() {
+        $(this).animate({opacity:1})
+        $('#work8text').fadeOut();  
+    });
+
     
 });
 //feedback fetch
 $("button").click(function (event) {
-    var client = document.getElementById('name').value;
-    alert(' Dear  esteemed ' + client + ' we have received your message successful. ' + ' Feel free to reach out to us anytime');
+    var Name = document.getElementById('name').value;
+    alert(Name+ ' we have received your message successful.'<br>' Feel free to reach out to us anytime');
     event.preventDefault();
-  });
+  });t

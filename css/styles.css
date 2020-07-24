@@ -50,9 +50,9 @@
 #work1text,#work2text,#work3text,#work4text,#work5text,#work6text,#work7text,#work8text{
     position: relative;
     display:none;
-    margin-top: -110px;
+    margin-top: -120px;
     margin-left: 20px;
-    color:white;
+    color:black;
     border-style: solid;
     text-align: center;
     font-weight: bold;
@@ -88,6 +88,7 @@
     height:15em;
     background-color: rgb(0, 0, 0,0);
 }
+
 .social{
     text-align: center;
     margin: 20px auto;
