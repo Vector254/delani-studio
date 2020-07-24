@@ -100,7 +100,9 @@
     body{
         font-size: 12px;
         width:50%;
-
+    }
+    [class*="col-"] {
+            width: 100%;
     }
 
 }
