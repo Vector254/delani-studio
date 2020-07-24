@@ -19,6 +19,7 @@
 }
 .about{
     text-align: center;
+    padding: 20px;
 }
 
 .services{
@@ -32,21 +33,32 @@
 .work{
     text-align: center;
 }
-.work p{
+
+#designText, #developmentText, #productText{
     display:none;
 }
-.port{
+.portfolio{
     text-align: center;
     margin: 10px 50px;
     width: 50;
-
     
 }
-.port img{
+#work1text,#work2text,#work3text,#work4text,#work5text,#work6text,#work7text,#work8text{
+    display: none;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+#work1, #work2, #work3, #work4, #work5,#work6,#work7,#work8{
     margin: 10px;
-    width: 100%;
-    
+    width: 100%;    
 }
+.portfolioImg:hover {
+    border-style: solid;
+    border-width: 2px;
+    border-color: brown;
+    }
 .contact{
     color: white;
     background-image: url("../images/c_image.jpg");
@@ -55,17 +67,20 @@
     text-align: center;
     padding: 20px;
 }
-#textbox {
-    width:60% ;
-    height:250px;
-    border-style: solid;
-    border-color: black;
-    opacity: 0.1;
-    padding-bottom: 20px;
+#name, #e-mail {
+    background-color: rgb(0, 0, 0,0);
+}
+#name::placeholder, #e-mail::placeholder, #feedback::placeholder{
+    color: white;
+}
+#feedback{
+    color: white;
+    margin-top: 2em;
+    height:15em;
+    background-color: rgb(0, 0, 0,0);
 }
 .social{
     text-align: center;
-    width: 100%;
     margin: 20px auto;
 }
 .footer{

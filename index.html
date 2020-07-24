@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/styles.css">
+    <link href="css/bootstrap.css"  rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
     <script src="js/jquery-3.5.1.js"></script>
     <script src="js/main.js"></script>
     <title>Delani Studio</title>
@@ -57,80 +57,109 @@
             <div class="col-md-12">
                 <h2>WHAT WE DO</h2><br>
             </div>
-            <div class="col-md-4"><img src="icons/design_icon.png" alt="">
+            
+            <div class="col-md-4 design">
+                <img id="designImg"src="icons/design_icon.png" alt="">
                 <h6>DESIGN</h6>
+                <div id="designText">
                 <p>Our design practice offers a full range of services including brand strategy, interaction 
                     and visual design and user experience testing.Throughout your project, our designers create
                     and implement visual design and workflows, solicit user feedback and work with you to make 
                     sure what gets built is what is needed.</p>
+                </div>
             </div>
-            <div class="col-md-4"><img src="icons/dev_icon.png" alt="">
+            <div class="col-md-4 development">
+                <img id="developmentImg"src="icons/dev_icon.png" alt="">
                 <h6>DEVELOPMENT</h6>
+                <div id="developmentText">
                 <p>All engineers are fluent in the latest enterprise, mobile and web development technologies.
                     They collaborate with your team to write, and improve code on a daily basis, using proven 
                     practices such as test-driven development and pair programming.</p>
+                </div>
             </div>
-            <div class="col-md-4"><img src="icons/product_icon.png" alt="">
+            <div class="col-md-4 product">
+                <img id="productImg"src="icons/product_icon.png" alt="">
                 <h6>PRODUCT MANAGEMENT</h6>
+                <div id="productText">
                 <p>Planning and development is iterative. Because we are constantly coding and testing,
                     the products we build are always ready to go live. 
                     This iterative process allows for changes as business requirements evolve.</p>
+                </div>
             </div>
-         </div>
+            </div>
         </div>
-        <div class="port">
+         
+        
+        <div class="portfolio">
         <div class="row">
             
             <div class="col-md-12">
                 <h5>PORTFOLIO</h5>
             </div>
             <div class="col-md-3">
-                <img src="images/work4.jpg" alt="">
+                <img  id="work4"src="images/work4.jpg" alt="">
+                <div id="work4text">UPCOMING PROJECT</div>
             </div>
             <div class="col-md-3">
-                <img src="images/work3.jpg" alt="">
+                <img id="work3" src="images/work3.jpg" alt="">
+                <div id="work3text">ONTARIO SECURITY ltd</div>
             </div>
             <div class="col-md-3">
-                <img src="images/work2.jpg" alt="">
+                <img id="work2"src="images/work2.jpg" alt="">
+                <div id="work2text">GOLDEN DECKS</div>
             </div>
             <div class="col-md-3">
-                <img src="images/work1.jpg" alt="">
+                <img id="work1"src="images/work1.jpg" alt="">
+                <div id="work1text">UP TO DATE NOTIFY</div>
                 
             </div>
         </div>
         <div class="row">
             
             <div class="col-md-3">
-                <img src="images/work5.jpg" alt="">
+                <img id="work5"src="images/work5.jpg" alt="">
+                <div id="work5text">DAILY INSPIRATION</div>
             </div>
             <div class="col-md-3">
-                <img src="images/work6.jpg" alt="">
+                <img id="work6"src="images/work6.jpg" alt="">
+                <div id="work6text">EXPRESS PUBLISHER</div>
             </div>
             <div class="col-md-3">
-                <img src="images/work7.jpg" alt="">
+                <img id="work7"src="images/work7.jpg" alt="">
+                <div id="work7text">BURNED LOGO MOCK-UP</div>
             </div>
             <div class="col-md-3">
-                <img src="images/work8.jpg" alt="">
+                <img id="work8"src="images/work8.jpg" alt="">
+                <div id="work8text">GIRAFFE RESTAURANT Intl</div>
             </div>
         </div>
         </div>
-        <div class="contact">
-            <div class="form">
-                <div class="row">
-                    <div class="col-md-12">
-                    <h2>CONTACT US</h2>
+        <div class="contact">                
+            <h2>CONTACT US</h2>
+                <div class="form"> 
+                    
+                    <div class="row">   
+                        <div class="col-md-1"></div>  
+                        <div class="col-md-5">
+                            <input type="text" class="form-control" id="name"placeholder="Name..">
+                        </div>
+                        <div class="col-md-5">    
+                            <input type="text" class="form-control" id="e-mail"placeholder="E-mail..">
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div> 
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                            <textarea class="form-control" id="feedback" placeholder="Your message here..."></textarea>
+                        </div>
+                        <div class="col-md-2"></div>
                     </div>
-                <div class="col-md-12">
-                    <input type="text" placeholder="Name..">
-                    <input type="text"placeholder="E-mail..">
-                </div>
-                <div class="col-md-12">
-                    <input type="text" id="textbox" placeholder="Your message here...">
-                </div>
-                </div>
-                <input type="button" class="btn btn-primary "value="SUBMIT" onclick="">
-            </div>
+                    
+                    <input type="button" class="btn btn-primary" value="SUBMIT" onclick="">     
+                </div>   
         </div>
+        
         <div class="social">
             <img src="icons/twitter.png" alt="">
             <img src="icons/dribble.png" alt="">
