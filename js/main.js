@@ -20,10 +20,16 @@ $(document).ready(function() {
 });
 
 $(document).ready(function() {
-    $(".portfolioImg").hover(function() {
-      $(".portfolioText").show();
-      
+    $('#work1, #work2, #work3, #work4, #work5, #work6, #work7, #work8').hover(function() {
+        $(this).animate({opacity:0.6});
+        $('#work1text').fadeIn();
+    
+    }, function() {
+        $(this).animate({opacity:1})
+        $('#work1text').fadeOut();
+    
     });
+    
 });
 //feedback fetch
 $("button").click(function (event) {

@@ -1,5 +1,5 @@
 .body{
-    font-family: 'Rye', cursive;
+    font-family: 'Josefin Sans', sans-serif;
     margin: 0;
     padding: 0;
    
@@ -41,16 +41,25 @@
     text-align: center;
     margin: 10px 50px;
     width: 50;
+    position: relative;
     
 }
+.work h6{
+    font-weight: bold;
+}
 #work1text,#work2text,#work3text,#work4text,#work5text,#work6text,#work7text,#work8text{
-    display: none;
-    color: black;
+    position: relative;
+    display:none;
+    margin-top: -110px;
+    margin-left: 20px;
+    color:white;
+    border-style: solid;
     text-align: center;
     font-weight: bold;
     font-size: 25px;
 }
 #work1, #work2, #work3, #work4, #work5,#work6,#work7,#work8{
+    
     margin: 10px;
     width: 100%;    
 }
