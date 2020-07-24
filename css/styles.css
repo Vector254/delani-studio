@@ -96,5 +96,13 @@
 .footer{
     text-align: center;
 }
+@media  only screen and(min-width:480px){
+    body{
+        font-size: 12px;
+        width:50%;
+
+    }
+
+}
 
 
