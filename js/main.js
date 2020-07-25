@@ -34,61 +34,44 @@ $(document).ready(function() {
 
 $(document).ready(function() {
     $(".hover1").hover(function() {
-        //$(this).animate({opacity:0.4});
-        $('#work1text').show();
+        $('#work1text').show("");
     }, function() {
-       // $(this).animate({opacity:1})
-        $('#work1text').hide();  
+        $('#work1text').hide("");  
     });
     $(".hover2").hover(function() {
-        $(this).animate({opacity:0.4});
-        $('#work2text').fadeIn();
+        $('#work2text').show("");
     }, function() {
-        $(this).animate({opacity:1})
-        $('#work2text').fadeOut();  
+        $('#work2text').hide("");  
     });
     $(".hover3").hover(function() {
-        $(this).animate({opacity:0.4});
-        $('#work3text').fadeIn();
+        $('#work3text').show("");
     }, function() {
-        $(this).animate({opacity:1})
-        $('#work3text').fadeOut();  
+        $('#work3text').hide("");  
     });
     $(".hover4").hover(function() {
-        $(this).animate({opacity:0.4});
-        $('#work4text').fadeIn();
+        $('#work4text').show("");
     }, function() {
-        $(this).animate({opacity:1})
-        $('#work4text').fadeOut();  
+        $('#work4text').hide("");  
     });
     $(".hover5").hover(function() {
-        $(this).animate({opacity:0.4});
-        $('#work5text').fadeIn();
+        $('#work5text').show("");
     }, function() {
-        $(this).animate({opacity:1})
-        $('#work5text').fadeOut();  
+        $('#work5text').hide("");  
     });
     $(".hover6").hover(function() {
-        $(this).animate({opacity:0.4});
-        $('#work6text').fadeIn();
+        $('#work6text').show("");
     }, function() {
-        $(this).animate({opacity:1})
-        $('#work6text').fadeOut();  
+        $('#work6text').hide("");  
     });
     $(".hover7").hover(function() {
-        $(this).animate({opacity:0.4});
-        $('#work7text').fadeIn();
+        $('#work7text').show("");
     }, function() {
-        $(this).animate({opacity:1})
-        $('#work7text').fadeOut();  
-    });$(".hover8").hover(function() {
-        $(this).animate({opacity:0.4});
-        $('#work8text').fadeIn();
-    }, function() {
-        $(this).animate({opacity:1})
-        $('#work8text').fadeOut();  
+        $('#work7text').hide("");  
     });
-
-    
+    $(".hover8").hover(function() {
+        $('#work8text').show("");
+    }, function() {
+        $('#work8text').hide("");  
+    });
 });
-//feedback fetch
+
