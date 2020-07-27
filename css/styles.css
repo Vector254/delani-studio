@@ -14,6 +14,9 @@ body{
     color: white;
     text-align: center;
     }
+.welcome{
+    font-size: 25px;
+}
 #mouse {
     padding-top: 10em;
     padding-bottom: 5px;
