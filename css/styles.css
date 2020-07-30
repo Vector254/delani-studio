@@ -65,7 +65,7 @@ body{
 .work h6{
     font-weight: bold;
 }
-#work1text,#work2text,#work3text,#work4text,#work5text,#work6text,#work7text,#work8text{
+#worktext{
     position: relative;
     display:none;
     margin-top: -150px;
@@ -79,7 +79,7 @@ body{
     font-weight: bold;
     font-size: 25px;
 }
-#work1, #work2, #work3, #work4, #work5,#work6,#work7,#work8{
+#work{
     
     margin: 10px;
     width: 100%;    

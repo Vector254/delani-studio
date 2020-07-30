@@ -31,47 +31,12 @@ $(document).ready(function() {
     });
   
 });
-
 $(document).ready(function() {
-    $(".hover1").hover(function() {
-        $('#work1text').show("");
-    }, function() {
-        $('#work1text').hide("");  
+    $('.hover').hover(function(){
+		$('#worktext',this).slideToggle('slow');
+	}, function(){
+		$('#worktext',this).slideToggle('slow');
     });
-    $(".hover2").hover(function() {
-        $('#work2text').show("");
-    }, function() {
-        $('#work2text').hide("");  
-    });
-    $(".hover3").hover(function() {
-        $('#work3text').show("");
-    }, function() {
-        $('#work3text').hide("");  
-    });
-    $(".hover4").hover(function() {
-        $('#work4text').show("");
-    }, function() {
-        $('#work4text').hide("");  
-    });
-    $(".hover5").hover(function() {
-        $('#work5text').show("");
-    }, function() {
-        $('#work5text').hide("");  
-    });
-    $(".hover6").hover(function() {
-        $('#work6text').show("");
-    }, function() {
-        $('#work6text').hide("");  
-    });
-    $(".hover7").hover(function() {
-        $('#work7text').show("");
-    }, function() {
-        $('#work7text').hide("");  
-    });
-    $(".hover8").hover(function() {
-        $('#work8text').show("");
-    }, function() {
-        $('#work8text').hide("");  
-    });
+
 });
 
